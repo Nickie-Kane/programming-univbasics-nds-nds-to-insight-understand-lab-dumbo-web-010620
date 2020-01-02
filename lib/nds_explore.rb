@@ -8,13 +8,12 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  pp directors_database
   hash_1 = {}
   hash_1 = directors_database
-  puts hash_1
+  hash_1
   row_index = 0 
   while row_index < directors_database.length do
-        puts row_index
+        puts hash_1[row_index]
   row_index += 1
   end
   #return
