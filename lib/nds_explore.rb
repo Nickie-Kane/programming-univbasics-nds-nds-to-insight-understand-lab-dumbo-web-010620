@@ -8,8 +8,9 @@ def pretty_print_nds(nds)
   pp nds
 end
 
+
 def print_first_directors_movie_titles
-  #pp directors_database
+  pp directors_database
   hash_1 = {}
   hash_1 = directors_database
   row_index = 0 
