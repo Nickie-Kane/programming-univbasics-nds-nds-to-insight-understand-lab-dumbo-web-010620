@@ -7,8 +7,8 @@ def pretty_print_nds(nds)
   pp nds
 end
 
-def print_first_directors_movie_titles(nds)
-  pp nds
+def print_first_directors_movie_titles
+  puts directors_database
   hash_1 = nds
   puts hash_1
   row_index = 0 
