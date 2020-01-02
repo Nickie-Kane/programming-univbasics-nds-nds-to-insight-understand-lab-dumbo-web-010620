@@ -9,7 +9,6 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  binding.pry
   #pp directors_database
   
   hash_1 = {}
