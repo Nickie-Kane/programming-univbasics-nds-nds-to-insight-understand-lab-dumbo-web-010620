@@ -9,12 +9,5 @@ end
 
 def print_first_directors_movie_titles(nds)
   pp nds
-  hash_1 = nds
-  puts hash_1
-  row_index = 0 
-  while row_index < nds.length do
-        puts hash_1[0]
-  row_index += 1
-  end
-  #return
+  
 end
