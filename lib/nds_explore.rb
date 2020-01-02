@@ -13,8 +13,8 @@ def print_first_directors_movie_titles
   hash_1 = directors_database
   puts hash_1
   row_index = 0 
-  while row_index < nds.length do
-        puts hash_1[0]
+  while row_index < directors_database.length do
+        puts row_index
   row_index += 1
   end
   #return
