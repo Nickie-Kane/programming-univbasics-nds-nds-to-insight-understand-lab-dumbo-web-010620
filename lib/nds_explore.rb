@@ -12,8 +12,8 @@ end
 def print_first_directors_movie_titles
   pp directors_database
   row_index = 0 
-  while row_index < directors_database.length do
-        puts directors_database[0]'':title'
+  while row_index < directors_database[0][:movies].length do
+        puts directors_database[0][:movies][row_index][:title]
         
         puts '\n'
   row_index += 1
