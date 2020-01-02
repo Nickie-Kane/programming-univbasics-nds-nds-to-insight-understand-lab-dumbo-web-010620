@@ -10,15 +10,13 @@ end
 
 def print_first_directors_movie_titles
   #pp directors_database
-  
   hash_1 = {}
   hash_1 = directors_database
-  hash_1
   row_index = 0 
   while row_index < directors_database.length do
-        puts hash_1[row_index]['Stephen Spielberg']
+        #puts hash_1[row_index]['Stephen Spielberg']
         
-        puts '\n'
+        #puts '\n'
   row_index += 1
   end
   #return
