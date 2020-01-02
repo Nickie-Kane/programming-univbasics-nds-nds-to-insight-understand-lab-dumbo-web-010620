@@ -17,7 +17,7 @@ def print_first_directors_movie_titles
   hash_1
   row_index = 0 
   while row_index < directors_database.length do
-        puts hash_1[row_index]['Stephen Spielberg'][:title]
+        puts hash_1[row_index]['Stephen Spielberg']
         
         puts '\n'
   row_index += 1
